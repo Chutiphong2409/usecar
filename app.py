@@ -201,7 +201,6 @@ with files:
         else:
             st.caption("ยังไม่ได้ใส่ลิงก์ — เพิ่ม URL ในตัวแปรด้านบนของไฟล์ app.py แล้วอัปโหลดขึ้น GitHub ใหม่")
         st.markdown("---")
-    st.markdown("**วิธีเพิ่มลิงก์:** เปิดไฟล์ `app.py` แล้วแก้ค่า `COLAB_URL`, `YOUTUBE_URL`, `POWERPOINT_URL` ที่ต้นไฟล์ จากนั้นบันทึกและอัปโหลดไฟล์ที่แก้แล้วขึ้น GitHub")
     st.markdown("**แหล่งข้อมูล Dataset:** [Used Car Price Prediction Dataset บน GitHub](https://github.com/abadeanlou/Used-Car-Price-Prediction)")
 
 st.markdown("---")
