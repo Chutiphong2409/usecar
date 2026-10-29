@@ -193,7 +193,7 @@ with compare:
 with files:
     st.subheader("📎 ไฟล์ประกอบ: Colab / YouTube / PowerPoint")
     st.write("รวมลิงก์สำหรับให้อาจารย์เปิดดูโค้ด วิดีโอนำเสนอ และสไลด์ประกอบโครงงาน")
-    link_items = [("Google Colab", COLAB_URL, "เปิด Notebook สำหรับโค้ดและการทดลอง"), ("YouTube","https://youtu.be/E-2RXDhMBjc" , "เปิดวิดีโอสาธิตหรือการนำเสนอ"), ("PowerPoint", POWERPOINT_URL, "เปิดสไลด์นำเสนอผลงาน")]
+    link_items = [ ("YouTube","https://youtu.be/E-2RXDhMBjc" , "เปิดวิดีโอสาธิตหรือการนำเสนอ")]
     for label, url, description in link_items:
         st.markdown(f"**{label}** — {description}")
         if url.strip():
