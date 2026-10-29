@@ -191,8 +191,8 @@ with compare:
     st.bar_chart(score_df.set_index("โมเดล")[["MAE", "RMSE"]])
 
 with files:
-    st.subheader("📎 ไฟล์ประกอบ: Colab / YouTube / PowerPoint")
-    st.write("รวมลิงก์สำหรับให้อาจารย์เปิดดูโค้ด วิดีโอนำเสนอ และสไลด์ประกอบโครงงาน")
+    st.subheader("📎 ไฟล์ประกอบ: YouTube")
+    st.write("ลิงก์สำหรับโค้ด และวิดีโอนำเสนอ")
     link_items = [ ("YouTube","https://youtu.be/E-2RXDhMBjc" , "เปิดวิดีโอสาธิตหรือการนำเสนอ")]
     for label, url, description in link_items:
         st.markdown(f"**{label}** — {description}")
